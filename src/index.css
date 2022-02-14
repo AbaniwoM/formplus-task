@@ -209,7 +209,7 @@
 /* Loading */
 .lds-facebook {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     width: 80px;
     height: 80px;
     margin-left: 45%;
@@ -248,13 +248,227 @@
 
 /* Responsiveness */
 @media (max-width: 320px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .search-templates {
+        margin-left: 18px;
+        margin-top: 27px;
+    }
+
+    .filters {
+        margin-top: 25px;
+        width: 20%;
+        display: grid;
+        gap: 25px;
+        margin-left: 155px;
+    }
+
+    .sort-by {
+        margin-left: 11px;
+    }
+
     .boxes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .information {
+        margin-left: 0px;
+        width: 120%;
+        margin-top: 40px;
+    }
+
+    .info-text {
+        font-size: 0.5rem;
+        text-align: center;
+        width: 60%;
+        margin-left: -10px;
+    }
+
+    .info-icon {
+        font-size: 0.8rem;
         margin-left: -75px;
+    }
+
+    .all-header {
+        width: 130%;
+        margin-left: -30px;
+    }
+
+    .all-container {
+        overflow-x: hidden;
+    }
+
+    .lds-facebook {
+        margin-left: 110px;
+        margin-top: 75px;
+    }
+
+    .boxes {
+        width: 70%;
+        margin-left: -25px;
+    }
+    
+    .use-template-cover {
+        width: 65%;
+        margin-top: 72px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .search-templates {
+        margin-left: 44px;
+        margin-top: 27px;
+    }
+
+    .filters {
+        margin-top: 25px;
+        width: 20%;
+        display: grid;
+        gap: 25px;
+        margin-left: 175px;
+    }
+
+    .sort-by {
+        margin-left: 13px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .information {
+        margin-left: 0px;
+        width: 120%;
+        margin-top: 40px;
+    }
+
+    .info-text {
+        font-size: 0.6rem;
+        text-align: center;
+        width: 60%;
+        margin-left: -6px;
+        margin-top: 20px;
+    }
+
+    .info-icon {
+        font-size: 0.8rem;
+        margin-left: -75px;
+    }
+
+    .all-header {
+        width: 126%;
+        margin-left: -30px;
+    }
+
+    .all-container {
+        overflow-x: hidden;
+    }
+
+    .lds-facebook {
+        margin-left: 140px;
+        margin-top: 75px;
+    }
+
+    .boxes {
+        width: 70%;
+        margin-left: -15px;
+    }
+    
+    .use-template-cover {
+        width: 67%;
+        margin-top: 91px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .search-templates {
+        margin-left: 44px;
+        margin-top: 27px;
+    }
+
+    .search-templates input {
+        width: 60%;
+    }
+
+    .filters {
+        margin-top: 25px;
+        width: 20%;
+        display: grid;
+        gap: 25px;
+        margin-left: 183px;
+    }
+
+    .sort-by {
+        margin-left: 13px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .information {
+        margin-left: 0px;
+        width: 120%;
+        margin-top: 40px;
+    }
+
+    .info-text {
+        font-size: 0.6rem;
+        text-align: center;
+        width: 60%;
+        margin-left: -6px;
+        margin-top: 20px;
+    }
+
+    .info-icon {
+        font-size: 0.8rem;
+        margin-left: -75px;
+    }
+
+    .all-header {
+        width: 122%;
+        margin-left: -30px;
+    }
+
+    .all-container {
+        overflow-x: hidden;
+    }
+
+    .lds-facebook {
+        margin-left: 156px;
+        margin-top: 75px;
+    }
+
+    .boxes {
+        width: 70%;
+        margin-left: 0px;
+    }
+    
+    .use-template-cover {
+        width: 68%;
+        margin-top: 91px;
     }
 }
   

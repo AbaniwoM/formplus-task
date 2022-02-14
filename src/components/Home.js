@@ -7,6 +7,7 @@ import { searchFilter } from '../helpers/Utils';
 import Loading from './Loading'
 
 const Home = () => {
+  
   const [ searchItem, setSearchItem ] = useState('');
 //   const [ updateData, setUpdateData ] = useState([]);
   const [loading, setLoading]=useState(false);
@@ -67,7 +68,7 @@ const Home = () => {
 
   //   setData(detailsFormServer);
   // }
-
+  
   return ( 
   <div className='container'>
     <div className='header'>
@@ -111,12 +112,7 @@ const Home = () => {
         </div>
         <div className='info-text'>Tada! Get started with a free template. Can't find what you are looking for? Search from the 1000+ avilable templates</div>
     </div>
-    {/* <div>
-      {loading ? data.map(data => {
-        return <AllTemplates all={data} searchFilter={searchFilter} />
-      }):<Loading />}
-    </div> */}
-
+    
     <Loading />
 
     <AllTemplates all={data} searchFilter={searchFilter} />

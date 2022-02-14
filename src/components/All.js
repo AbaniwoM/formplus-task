@@ -6,7 +6,7 @@ const All = ({ all }) => {
     <div className='all-container'>
       <div className='all-header'>
         <div className='all-templates'>All Templates</div>
-        <div className='template-amount'>2000 templates</div>
+        <div className='template-amount'>25208 templates</div>
       </div>
       <div className='boxes'>
           {all.map((details, index) => 
